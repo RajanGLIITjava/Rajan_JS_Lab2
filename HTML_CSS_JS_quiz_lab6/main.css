@@ -1,0 +1,72 @@
+/** code by webdevtrick (https://webdevtrick.com) **/
+body {
+    background-color: #413D3D;
+}
+ 
+.grid {
+    width: 600px;
+    height: 630px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    
+}
+ 
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #033322;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+
+.grid h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+ 
+.grid li {
+    background-color: #01BBFF;
+    width: auto;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+#submit{
+    padding: 1 rem 3 rem;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight:100;
+    display: block;
+    margin:auto;
+    border: none;
+    color: #fff;
+    background-color: #01BBFF;;
+    margin-top: 1rem;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: skyblue;
+}
+  
+#showProgress{
+    color:  #fff;
+    margin-top:auto;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 4);
+    font-size: 18px;
+    display:flex;
+}
+
+.scoreArea{
+    display: none;
+}
+
